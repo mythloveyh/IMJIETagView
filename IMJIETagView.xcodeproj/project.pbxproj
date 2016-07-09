@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840ABC671CBE0D3800138D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ABC661CBE0D3800138D3B /* main.m */; };
+		840ABC6A1CBE0D3800138D3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ABC691CBE0D3800138D3B /* AppDelegate.m */; };
+		840ABC6D1CBE0D3800138D3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ABC6C1CBE0D3800138D3B /* ViewController.m */; };
+		840ABC701CBE0D3800138D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840ABC6E1CBE0D3800138D3B /* Main.storyboard */; };
+		840ABC721CBE0D3800138D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840ABC711CBE0D3800138D3B /* Assets.xcassets */; };
+		840ABC751CBE0D3800138D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840ABC731CBE0D3800138D3B /* LaunchScreen.storyboard */; };
+		840ABC801CBE0D3800138D3B /* IMJIETagViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ABC7F1CBE0D3800138D3B /* IMJIETagViewTests.m */; };
+		840ABC8B1CBE0D3800138D3B /* IMJIETagViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ABC8A1CBE0D3800138D3B /* IMJIETagViewUITests.m */; };
+		840ABC9D1CBE0D7600138D3B /* IMJIETagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ABC9A1CBE0D7600138D3B /* IMJIETagView.m */; };
+		840ABC9E1CBE0D7600138D3B /* IMJIETagFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 840ABC9C1CBE0D7600138D3B /* IMJIETagFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840ABC7C1CBE0D3800138D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840ABC5A1CBE0D3800138D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840ABC611CBE0D3800138D3B;
+			remoteInfo = IMJIETagView;
+		};
+		840ABC871CBE0D3800138D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840ABC5A1CBE0D3800138D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840ABC611CBE0D3800138D3B;
+			remoteInfo = IMJIETagView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840ABC621CBE0D3800138D3B /* IMJIETagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMJIETagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840ABC661CBE0D3800138D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840ABC681CBE0D3800138D3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840ABC691CBE0D3800138D3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840ABC6B1CBE0D3800138D3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840ABC6C1CBE0D3800138D3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840ABC6F1CBE0D3800138D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840ABC711CBE0D3800138D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840ABC741CBE0D3800138D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840ABC761CBE0D3800138D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840ABC7B1CBE0D3800138D3B /* IMJIETagViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMJIETagViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840ABC7F1CBE0D3800138D3B /* IMJIETagViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMJIETagViewTests.m; sourceTree = "<group>"; };
+		840ABC811CBE0D3800138D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840ABC861CBE0D3800138D3B /* IMJIETagViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMJIETagViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840ABC8A1CBE0D3800138D3B /* IMJIETagViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMJIETagViewUITests.m; sourceTree = "<group>"; };
+		840ABC8C1CBE0D3800138D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840ABC991CBE0D7600138D3B /* IMJIETagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMJIETagView.h; sourceTree = "<group>"; };
+		840ABC9A1CBE0D7600138D3B /* IMJIETagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMJIETagView.m; sourceTree = "<group>"; };
+		840ABC9B1CBE0D7600138D3B /* IMJIETagFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMJIETagFrame.h; sourceTree = "<group>"; };
+		840ABC9C1CBE0D7600138D3B /* IMJIETagFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMJIETagFrame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840ABC5F1CBE0D3800138D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840ABC781CBE0D3800138D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840ABC831CBE0D3800138D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840ABC591CBE0D3800138D3B = {
+			isa = PBXGroup;
+			children = (
+				840ABC641CBE0D3800138D3B /* IMJIETagView */,
+				840ABC7E1CBE0D3800138D3B /* IMJIETagViewTests */,
+				840ABC891CBE0D3800138D3B /* IMJIETagViewUITests */,
+				840ABC631CBE0D3800138D3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840ABC631CBE0D3800138D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840ABC621CBE0D3800138D3B /* IMJIETagView.app */,
+				840ABC7B1CBE0D3800138D3B /* IMJIETagViewTests.xctest */,
+				840ABC861CBE0D3800138D3B /* IMJIETagViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840ABC641CBE0D3800138D3B /* IMJIETagView */ = {
+			isa = PBXGroup;
+			children = (
+				840ABC981CBE0D5C00138D3B /* IMJIE */,
+				840ABC681CBE0D3800138D3B /* AppDelegate.h */,
+				840ABC691CBE0D3800138D3B /* AppDelegate.m */,
+				840ABC6B1CBE0D3800138D3B /* ViewController.h */,
+				840ABC6C1CBE0D3800138D3B /* ViewController.m */,
+				840ABC6E1CBE0D3800138D3B /* Main.storyboard */,
+				840ABC711CBE0D3800138D3B /* Assets.xcassets */,
+				840ABC731CBE0D3800138D3B /* LaunchScreen.storyboard */,
+				840ABC761CBE0D3800138D3B /* Info.plist */,
+				840ABC651CBE0D3800138D3B /* Supporting Files */,
+			);
+			path = IMJIETagView;
+			sourceTree = "<group>";
+		};
+		840ABC651CBE0D3800138D3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840ABC661CBE0D3800138D3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840ABC7E1CBE0D3800138D3B /* IMJIETagViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				840ABC7F1CBE0D3800138D3B /* IMJIETagViewTests.m */,
+				840ABC811CBE0D3800138D3B /* Info.plist */,
+			);
+			path = IMJIETagViewTests;
+			sourceTree = "<group>";
+		};
+		840ABC891CBE0D3800138D3B /* IMJIETagViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840ABC8A1CBE0D3800138D3B /* IMJIETagViewUITests.m */,
+				840ABC8C1CBE0D3800138D3B /* Info.plist */,
+			);
+			path = IMJIETagViewUITests;
+			sourceTree = "<group>";
+		};
+		840ABC981CBE0D5C00138D3B /* IMJIE */ = {
+			isa = PBXGroup;
+			children = (
+				840ABC991CBE0D7600138D3B /* IMJIETagView.h */,
+				840ABC9A1CBE0D7600138D3B /* IMJIETagView.m */,
+				840ABC9B1CBE0D7600138D3B /* IMJIETagFrame.h */,
+				840ABC9C1CBE0D7600138D3B /* IMJIETagFrame.m */,
+			);
+			name = IMJIE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840ABC611CBE0D3800138D3B /* IMJIETagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840ABC8F1CBE0D3800138D3B /* Build configuration list for PBXNativeTarget "IMJIETagView" */;
+			buildPhases = (
+				840ABC5E1CBE0D3800138D3B /* Sources */,
+				840ABC5F1CBE0D3800138D3B /* Frameworks */,
+				840ABC601CBE0D3800138D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMJIETagView;
+			productName = IMJIETagView;
+			productReference = 840ABC621CBE0D3800138D3B /* IMJIETagView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840ABC7A1CBE0D3800138D3B /* IMJIETagViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840ABC921CBE0D3800138D3B /* Build configuration list for PBXNativeTarget "IMJIETagViewTests" */;
+			buildPhases = (
+				840ABC771CBE0D3800138D3B /* Sources */,
+				840ABC781CBE0D3800138D3B /* Frameworks */,
+				840ABC791CBE0D3800138D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840ABC7D1CBE0D3800138D3B /* PBXTargetDependency */,
+			);
+			name = IMJIETagViewTests;
+			productName = IMJIETagViewTests;
+			productReference = 840ABC7B1CBE0D3800138D3B /* IMJIETagViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840ABC851CBE0D3800138D3B /* IMJIETagViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840ABC951CBE0D3800138D3B /* Build configuration list for PBXNativeTarget "IMJIETagViewUITests" */;
+			buildPhases = (
+				840ABC821CBE0D3800138D3B /* Sources */,
+				840ABC831CBE0D3800138D3B /* Frameworks */,
+				840ABC841CBE0D3800138D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840ABC881CBE0D3800138D3B /* PBXTargetDependency */,
+			);
+			name = IMJIETagViewUITests;
+			productName = IMJIETagViewUITests;
+			productReference = 840ABC861CBE0D3800138D3B /* IMJIETagViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840ABC5A1CBE0D3800138D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					840ABC611CBE0D3800138D3B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					840ABC7A1CBE0D3800138D3B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 840ABC611CBE0D3800138D3B;
+					};
+					840ABC851CBE0D3800138D3B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 840ABC611CBE0D3800138D3B;
+					};
+				};
+			};
+			buildConfigurationList = 840ABC5D1CBE0D3800138D3B /* Build configuration list for PBXProject "IMJIETagView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840ABC591CBE0D3800138D3B;
+			productRefGroup = 840ABC631CBE0D3800138D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840ABC611CBE0D3800138D3B /* IMJIETagView */,
+				840ABC7A1CBE0D3800138D3B /* IMJIETagViewTests */,
+				840ABC851CBE0D3800138D3B /* IMJIETagViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840ABC601CBE0D3800138D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840ABC751CBE0D3800138D3B /* LaunchScreen.storyboard in Resources */,
+				840ABC721CBE0D3800138D3B /* Assets.xcassets in Resources */,
+				840ABC701CBE0D3800138D3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840ABC791CBE0D3800138D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840ABC841CBE0D3800138D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840ABC5E1CBE0D3800138D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840ABC9E1CBE0D7600138D3B /* IMJIETagFrame.m in Sources */,
+				840ABC6D1CBE0D3800138D3B /* ViewController.m in Sources */,
+				840ABC6A1CBE0D3800138D3B /* AppDelegate.m in Sources */,
+				840ABC9D1CBE0D7600138D3B /* IMJIETagView.m in Sources */,
+				840ABC671CBE0D3800138D3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840ABC771CBE0D3800138D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840ABC801CBE0D3800138D3B /* IMJIETagViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840ABC821CBE0D3800138D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840ABC8B1CBE0D3800138D3B /* IMJIETagViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840ABC7D1CBE0D3800138D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840ABC611CBE0D3800138D3B /* IMJIETagView */;
+			targetProxy = 840ABC7C1CBE0D3800138D3B /* PBXContainerItemProxy */;
+		};
+		840ABC881CBE0D3800138D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840ABC611CBE0D3800138D3B /* IMJIETagView */;
+			targetProxy = 840ABC871CBE0D3800138D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840ABC6E1CBE0D3800138D3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840ABC6F1CBE0D3800138D3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840ABC731CBE0D3800138D3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840ABC741CBE0D3800138D3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840ABC8D1CBE0D3800138D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840ABC8E1CBE0D3800138D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840ABC901CBE0D3800138D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMJIETagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IMJIE.IMJIETagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840ABC911CBE0D3800138D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMJIETagView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IMJIE.IMJIETagView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		840ABC931CBE0D3800138D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMJIETagViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IMJIE.IMJIETagViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMJIETagView.app/IMJIETagView";
+			};
+			name = Debug;
+		};
+		840ABC941CBE0D3800138D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IMJIETagViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IMJIE.IMJIETagViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMJIETagView.app/IMJIETagView";
+			};
+			name = Release;
+		};
+		840ABC961CBE0D3800138D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IMJIETagViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IMJIE.IMJIETagViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IMJIETagView;
+			};
+			name = Debug;
+		};
+		840ABC971CBE0D3800138D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IMJIETagViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IMJIE.IMJIETagViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IMJIETagView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840ABC5D1CBE0D3800138D3B /* Build configuration list for PBXProject "IMJIETagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840ABC8D1CBE0D3800138D3B /* Debug */,
+				840ABC8E1CBE0D3800138D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840ABC8F1CBE0D3800138D3B /* Build configuration list for PBXNativeTarget "IMJIETagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840ABC901CBE0D3800138D3B /* Debug */,
+				840ABC911CBE0D3800138D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840ABC921CBE0D3800138D3B /* Build configuration list for PBXNativeTarget "IMJIETagViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840ABC931CBE0D3800138D3B /* Debug */,
+				840ABC941CBE0D3800138D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840ABC951CBE0D3800138D3B /* Build configuration list for PBXNativeTarget "IMJIETagViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840ABC961CBE0D3800138D3B /* Debug */,
+				840ABC971CBE0D3800138D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840ABC5A1CBE0D3800138D3B /* Project object */;
+}
